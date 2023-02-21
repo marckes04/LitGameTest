@@ -4,15 +4,22 @@ using UnityEngine;
 
 public class Animations : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public Animator playerAnimated;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+public void Animation1(){
+    playerAnimated.Play("Animation1");
+}
+
+public void Animation2(){
+    playerAnimated.Play("Animation2");
+}
+
+public void Animation3(){
+    playerAnimated.Play("Animation3");
+}
+
+
+public void Animation4(){
+    playerAnimated.Play("Animation4");
+}
 }
